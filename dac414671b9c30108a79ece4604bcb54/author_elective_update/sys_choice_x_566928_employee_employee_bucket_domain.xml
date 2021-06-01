@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="domain" table="x_566928_employee_employee_bucket" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>domain</element>
+            <name>x_566928_employee_employee_bucket</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-05-29 20:07:14</sys_created_on>
+            <sys_id>f3473ea31b5470108a79ece4604bcbe5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>domain</sys_name>
+            <sys_package display_value="Employee Role and Domain Assignment" source="x_566928_employee">dac414671b9c30108a79ece4604bcb54</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Employee Role and Domain Assignment">dac414671b9c30108a79ece4604bcb54</sys_scope>
+            <sys_update_name>sys_choice_x_566928_employee_employee_bucket_domain</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-05-29 20:07:14</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>domain</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Application Developer</label>
+            <language>en</language>
+            <name>x_566928_employee_employee_bucket</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-05-29 20:07:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bb473ea31b5470108a79ece4604bcbe4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-05-29 20:07:14</sys_updated_on>
+            <value>ad</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>domain</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Machine Learning</label>
+            <language>en</language>
+            <name>x_566928_employee_employee_bucket</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-05-29 20:07:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7f473ea31b5470108a79ece4604bcbe6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-05-29 20:07:14</sys_updated_on>
+            <value>ml</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>domain</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Service Now</label>
+            <language>en</language>
+            <name>x_566928_employee_employee_bucket</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-05-29 20:07:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>33477ea31b5470108a79ece4604bcb3f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-05-29 20:07:14</sys_updated_on>
+            <value>sn</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>domain</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Software Developer</label>
+            <language>en</language>
+            <name>x_566928_employee_employee_bucket</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-05-29 20:07:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b3477ea31b5470108a79ece4604bcb40</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-05-29 20:07:14</sys_updated_on>
+            <value>sd</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>domain</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Web Developer</label>
+            <language>en</language>
+            <name>x_566928_employee_employee_bucket</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-05-29 20:07:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>37477ea31b5470108a79ece4604bcb41</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-05-29 20:07:14</sys_updated_on>
+            <value>wd</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

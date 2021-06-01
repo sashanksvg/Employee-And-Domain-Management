@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="2fd960e71bdc30108a79ece4604bcbf8" sys_domain="global" table="x_566928_employee_domain_assigner" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-05-29 09:49:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2fd960e71bdc30108a79ece4604bcbfb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_566928_employee_domain_assigner" name="x_566928_employee_domain_assigner" sys_domain="global" view="Default view">2fd960e71bdc30108a79ece4604bcbf8</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_566928_employee_domain_assigner" sys_domain="global" view="Default view">7609ec271bdc30108a79ece4604bcb30</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-05-29 09:49:16</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_566928_employee_domain_assigner</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-05-29 09:49:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2fd960e71bdc30108a79ece4604bcbf8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_566928_employee_domain_assigner</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Employee Role and Domain Assignment" source="x_566928_employee">dac414671b9c30108a79ece4604bcb54</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Employee Role and Domain Assignment">dac414671b9c30108a79ece4604bcb54</sys_scope>
+            <sys_update_name>sys_ui_form_sections_2fd960e71bdc30108a79ece4604bcbf8</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-05-29 09:49:16</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

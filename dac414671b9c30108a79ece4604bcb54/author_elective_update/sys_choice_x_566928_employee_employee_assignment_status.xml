@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="status" table="x_566928_employee_employee_assignment" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>status</element>
+            <name>x_566928_employee_employee_assignment</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-05-29 09:01:49</sys_created_on>
+            <sys_id>a00f18eb1b9c30108a79ece4604bcbe6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>status</sys_name>
+            <sys_package display_value="Employee Role and Domain Assignment" source="x_566928_employee">dac414671b9c30108a79ece4604bcb54</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Employee Role and Domain Assignment">dac414671b9c30108a79ece4604bcb54</sys_scope>
+            <sys_update_name>sys_choice_x_566928_employee_employee_assignment_status</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-05-29 09:01:49</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Closed</label>
+            <language>en</language>
+            <name>x_566928_employee_employee_assignment</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-05-29 09:04:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1d8f9c2f1b9c30108a79ece4604bcbb6</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-05-29 09:04:31</sys_updated_on>
+            <value>closed</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Open</label>
+            <language>en</language>
+            <name>x_566928_employee_employee_assignment</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-05-29 09:01:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5cde9c6f1b9c30108a79ece4604bcb4c</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-05-29 09:03:25</sys_updated_on>
+            <value>open</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Submitted</label>
+            <language>en</language>
+            <name>x_566928_employee_employee_assignment</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-05-29 09:02:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7c0f9c2f1b9c30108a79ece4604bcbaf</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-05-29 09:03:30</sys_updated_on>
+            <value>submitted</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

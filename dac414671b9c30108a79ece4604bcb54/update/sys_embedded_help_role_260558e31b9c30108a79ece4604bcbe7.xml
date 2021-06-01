@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_566928_employee.employee assignment role" name="x_566928_employee.employee assignment role">ea0558e31b9c30108a79ece4604bcbe2</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-29 08:18:17</sys_created_on>
+        <sys_id>260558e31b9c30108a79ece4604bcbe7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ea0558e31b9c30108a79ece4604bcbe2</sys_name>
+        <sys_package display_value="Employee Role and Domain Assignment" source="x_566928_employee">dac414671b9c30108a79ece4604bcb54</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Role and Domain Assignment">dac414671b9c30108a79ece4604bcb54</sys_scope>
+        <sys_update_name>sys_embedded_help_role_260558e31b9c30108a79ece4604bcbe7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-29 08:18:17</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Employee Assignment" max_length="40" name="x_566928_employee_employee_assignment" sizeclass="1" type="collection">
+        <element label="Assessment Score 1" max_length="15" name="assessment_score_1" type="percent_complete"/>
+        <element label="Assessment Score 2" max_length="15" name="assessment_score_2" type="percent_complete"/>
+        <element label="Assessment Score 3" max_length="15" name="assessment_score_3" type="percent_complete"/>
+        <element label="Avg Assessment Score" max_length="15" name="avg_assessment_score" type="percent_complete"/>
+        <element choice="1" label="Domain" max_length="40" name="doman" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Application Developer" value="ad"/>
+                <element inactive_on_update="false" label="Machine Learning" value="ml"/>
+                <element inactive_on_update="false" label="Service Now" value="sn"/>
+                <element inactive_on_update="false" label="Software Developer" value="sd"/>
+                <element inactive_on_update="false" label="Web Developer" value="wd"/>
+            </choice>
+        </element>
+        <element label="Employee Name" max_length="32" name="employee_name" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="3" label="Role" max_length="40" name="role" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Back End" value="be"/>
+                <element inactive_on_update="false" label="Front End" value="fe"/>
+                <element inactive_on_update="false" label="Full Stack" value="fs"/>
+                <element inactive_on_update="false" label="PA" value="pa"/>
+                <element inactive_on_update="false" label="PAT" value="pat"/>
+                <element inactive_on_update="false" label="Tester" value="tester"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="jv" label="Skill" max_length="40" name="skill" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Dart" value="dt"/>
+                <element inactive_on_update="false" label="Java" value="jv"/>
+                <element inactive_on_update="false" label="Java Script" value="js"/>
+                <element inactive_on_update="false" label="Python" value="py"/>
+            </choice>
+        </element>
+        <element choice="3" default="open" label="Status" max_length="40" name="status" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Closed" value="closed"/>
+                <element inactive_on_update="false" label="Open" value="open"/>
+                <element inactive_on_update="false" label="Submitted" value="submitted"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="employee_name"/>
+        </index>
+    </element>
+</database>

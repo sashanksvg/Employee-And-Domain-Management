@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Domain Assigner" max_length="40" name="x_566928_employee_domain_assigner" sizeclass="1" type="collection">
+        <element label="Assessment Score 1" mandatory="true" max_length="15" name="assessment_score_1" type="percent_complete"/>
+        <element label="Assessment Score 2" max_length="15" name="assessment_score_2" type="percent_complete"/>
+        <element label="Assessment Score 3" max_length="15" name="assessment_score_3" type="percent_complete"/>
+        <element label="AVG Assessment Score" max_length="15" name="avg_assessment_score" type="percent_complete"/>
+        <element choice="1" choice_field="doman" choice_table="x_566928_employee_employee_assignment" label="Domain Assignment" max_length="40" name="domain_assignment" type="choice">
+            <choice/>
+        </element>
+        <element choice="3" choice_field="role" choice_table="x_566928_employee_employee_assignment" label="Role Assignment" max_length="40" name="role_assignment" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Back End" sequence="0" value="be"/>
+                <element inactive_on_update="false" label="Front End" sequence="1" value="fe"/>
+                <element inactive_on_update="false" label="Full Stack" sequence="2" value="fs"/>
+                <element inactive_on_update="false" label="PA" sequence="3" value="pa"/>
+                <element inactive_on_update="false" label="PAT" sequence="4" value="pat"/>
+                <element inactive_on_update="false" label="Tester" sequence="5" value="tester"/>
+            </choice>
+        </element>
+        <element choice="3" choice_field="skill" choice_table="x_566928_employee_employee_assignment" default="jv" label="Skill" max_length="40" name="skill" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Dart" sequence="0" value="dt"/>
+                <element inactive_on_update="false" label="Java" sequence="1" value="jv"/>
+                <element inactive_on_update="false" label="Java Script" sequence="2" value="js"/>
+                <element inactive_on_update="false" label="Python" sequence="3" value="py"/>
+            </choice>
+        </element>
+    </element>
+</database>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="skill" table="x_566928_employee_domain_assigner" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>skill</element>
+            <name>x_566928_employee_domain_assigner</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-05-29 09:49:16</sys_created_on>
+            <sys_id>6bd9a0e71bdc30108a79ece4604bcb00</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>skill</sys_name>
+            <sys_package display_value="Employee Role and Domain Assignment" source="x_566928_employee">dac414671b9c30108a79ece4604bcb54</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Employee Role and Domain Assignment">dac414671b9c30108a79ece4604bcb54</sys_scope>
+            <sys_update_name>sys_choice_x_566928_employee_domain_assigner_skill</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-05-29 09:49:16</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>skill</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Dart</label>
+            <language>en</language>
+            <name>x_566928_employee_domain_assigner</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-05-29 09:49:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>23d9a0e71bdc30108a79ece4604bcb00</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-05-29 09:49:16</sys_updated_on>
+            <value>dt</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>skill</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Java</label>
+            <language>en</language>
+            <name>x_566928_employee_domain_assigner</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-05-29 09:49:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6bd9a0e71bdc30108a79ece4604bcb0e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-05-29 09:49:16</sys_updated_on>
+            <value>jv</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>skill</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Java Script</label>
+            <language>en</language>
+            <name>x_566928_employee_domain_assigner</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-05-29 09:49:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ebd9a0e71bdc30108a79ece4604bcb0f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-05-29 09:49:16</sys_updated_on>
+            <value>js</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>skill</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Python</label>
+            <language>en</language>
+            <name>x_566928_employee_domain_assigner</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-05-29 09:49:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6fd9a0e71bdc30108a79ece4604bcb10</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-05-29 09:49:16</sys_updated_on>
+            <value>py</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

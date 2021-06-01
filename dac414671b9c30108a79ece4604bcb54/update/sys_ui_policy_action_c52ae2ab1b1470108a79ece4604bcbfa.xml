@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>employee_name</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-29 19:09:56</sys_created_on>
+        <sys_id>c52ae2ab1b1470108a79ece4604bcbfa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>employee_name</sys_name>
+        <sys_package display_value="Employee Role and Domain Assignment" source="x_566928_employee">dac414671b9c30108a79ece4604bcb54</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Role and Domain Assignment">dac414671b9c30108a79ece4604bcb54</sys_scope>
+        <sys_update_name>sys_ui_policy_action_c52ae2ab1b1470108a79ece4604bcbfa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-29 19:09:56</sys_updated_on>
+        <table>x_566928_employee_employee_assignment</table>
+        <ui_policy display_value="Assigning Read Only to employee name, after name is entered.">e5792e6b1b1470108a79ece4604bcbb0</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>
