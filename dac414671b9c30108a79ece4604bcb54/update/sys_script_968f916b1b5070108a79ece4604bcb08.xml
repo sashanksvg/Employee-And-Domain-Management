@@ -32,14 +32,11 @@
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
 
 	// Add your code here
-	var gr = new GlideRecord('x_566928_employee_domain_assigner');
-	gr.query();
-	while(gr.next()){
 		var empbucket = new GlideRecord('x_566928_employee_employee_bucket');
 		empbucket.initialize();
-		empbucket.employee = current.sys_id;
+		empbucket.employee = current.employee_number;
 		empbucket.insert();
-	}
+	
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -47,7 +44,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>968f916b1b5070108a79ece4604bcb08</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name>Create Emp Bucket</sys_name>
         <sys_overrides/>
         <sys_package display_value="Employee Role and Domain Assignment" source="x_566928_employee">dac414671b9c30108a79ece4604bcb54</sys_package>
@@ -55,7 +52,7 @@
         <sys_scope display_value="Employee Role and Domain Assignment">dac414671b9c30108a79ece4604bcb54</sys_scope>
         <sys_update_name>sys_script_968f916b1b5070108a79ece4604bcb08</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-05-29 16:23:33</sys_updated_on>
+        <sys_updated_on>2021-06-09 11:38:00</sys_updated_on>
         <template/>
         <when>async</when>
     </sys_script>

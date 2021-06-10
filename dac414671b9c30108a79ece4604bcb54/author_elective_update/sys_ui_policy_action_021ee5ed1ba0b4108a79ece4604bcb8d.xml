@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>employee_name</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-04 19:55:37</sys_created_on>
+        <sys_id>021ee5ed1ba0b4108a79ece4604bcb8d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>employee_name</sys_name>
+        <sys_package display_value="Employee Role and Domain Assignment" source="x_566928_employee">dac414671b9c30108a79ece4604bcb54</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Role and Domain Assignment">dac414671b9c30108a79ece4604bcb54</sys_scope>
+        <sys_update_name>sys_ui_policy_action_021ee5ed1ba0b4108a79ece4604bcb8d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-05 09:02:14</sys_updated_on>
+        <table>x_566928_employee_employee_assignment</table>
+        <ui_policy display_value="Make fields Mandatory">6fe526a71b1470108a79ece4604bcbe9</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Employee Role and Domain Assignment">dac414671b9c30108a79ece4604bcb54</application>
+        <file_path/>
+        <instance_id>51cbda16db007810d5c911f8489619bc</instance_id>
+        <instance_name>dev115974</instance_name>
+        <name>sys_ui_policy_action_021ee5ed1ba0b4108a79ece4604bcb8d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>true</disabled><field>employee_name</field><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-06-04 19:55:37</sys_created_on><sys_id>021ee5ed1ba0b4108a79ece4604bcb8d</sys_id><sys_mod_count>1</sys_mod_count><sys_name>employee_name</sys_name><sys_package display_value="Employee Role and Domain Assignment" source="x_566928_employee">dac414671b9c30108a79ece4604bcb54</sys_package><sys_policy/><sys_scope display_value="Employee Role and Domain Assignment">dac414671b9c30108a79ece4604bcb54</sys_scope><sys_update_name>sys_ui_policy_action_021ee5ed1ba0b4108a79ece4604bcb8d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-06-05 09:02:14</sys_updated_on><table>x_566928_employee_employee_assignment</table><ui_policy display_value="Make fields Mandatory">6fe526a71b1470108a79ece4604bcbe9</ui_policy><visible>true</visible></sys_ui_policy_action></record_update>]]></payload>
+        <payload_hash>-1896102841</payload_hash>
+        <record_name>employee_name</record_name>
+        <reverted_from/>
+        <source>0c3684a41ba4f0108a79ece4604bcb5b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-05 09:02:14</sys_created_on>
+        <sys_id>b632e0711ba8b4108a79ece4604bcbbe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>179db68925d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-05 09:02:14</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>fe32e071cea8b4108908a35c95665dbd</update_guid>
+        <update_guid_history>fe32e071cea8b4108908a35c95665dbd:-1896102841,483e65ad0aa0b410c1d629369712f23f:-243996093</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-05 09:03:30</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>33d0565ec9494362be375bf44eaafc84</sys_id>
+        <sys_metadata>021ee5ed1ba0b4108a79ece4604bcb8d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>employee_name</sys_name>
+        <sys_package display_value="Employee Role and Domain Assignment" source="x_566928_employee">dac414671b9c30108a79ece4604bcb54</sys_package>
+        <sys_parent display_value="Make fields Mandatory">6fe526a71b1470108a79ece4604bcbe9</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Employee Role and Domain Assignment">dac414671b9c30108a79ece4604bcb54</sys_scope>
+        <sys_scope_delete display_value="">5bf57aef587240c0b3f9aedd49323dc4</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_021ee5ed1ba0b4108a79ece4604bcb8d</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_021ee5ed1ba0b4108a79ece4604bcb8d">b632e0711ba8b4108a79ece4604bcbbe</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-05 09:03:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

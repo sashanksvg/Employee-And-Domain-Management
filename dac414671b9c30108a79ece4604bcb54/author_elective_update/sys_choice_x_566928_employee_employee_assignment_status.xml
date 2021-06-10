@@ -21,19 +21,19 @@
             <element>status</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Closed</label>
+            <label>Cancelled</label>
             <language>en</language>
             <name>x_566928_employee_employee_assignment</name>
             <sequence/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-05-29 09:04:16</sys_created_on>
+            <sys_created_on>2021-06-01 19:12:30</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>1d8f9c2f1b9c30108a79ece4604bcbb6</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_id>4c8782641be8f0108a79ece4604bcb6d</sys_id>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-05-29 09:04:31</sys_updated_on>
-            <value>closed</value>
+            <sys_updated_on>2021-06-01 19:12:37</sys_updated_on>
+            <value>cancelled</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>

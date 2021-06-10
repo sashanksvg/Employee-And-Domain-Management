@@ -3,7 +3,7 @@
         <abort_action>false</abort_action>
         <access>package_private</access>
         <action_delete>false</action_delete>
-        <action_insert>false</action_insert>
+        <action_insert>true</action_insert>
         <action_query>false</action_query>
         <action_update>true</action_update>
         <active>true</active>
@@ -15,7 +15,7 @@
         <condition/>
         <description/>
         <execute_function>false</execute_function>
-        <filter_condition table="x_566928_employee_employee_assignment">status=submitted^EQ<item display_value="Submitted" endquery="false" field="status" goto="false" newquery="false" operator="=" or="false" value="submitted"/>
+        <filter_condition table="x_566928_employee_employee_assignment">approval=approved^EQ<item display_value="Approved" endquery="false" field="approval" goto="false" newquery="false" operator="=" or="false" value="approved"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter_condition>
         <is_rest>false</is_rest>
@@ -29,20 +29,74 @@
         <rest_service_text/>
         <rest_variables/>
         <role_conditions/>
-        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
 
-	// Add your code here
-	var gr = new GlideRecord('x_566928_employee_employee_bucket');
-	gr.query();
-	if(gr.next()){
-			if(current.assessment_score_1>80){
-				gr.domain='sd';
-				gr.role='pa';
-			
-		}
-		gr.update();
-		
-	}
+    // Add your code here
+    var gr = new GlideRecord('x_566928_employee_employee_bucket');
+    gr.addQuery('employee', current.employee_id);
+    gr.query();
+    while (gr.next()) {
+        if (current.skill == 'py') {
+            if (current.avg_assessment_score >= 80) {
+                gr.work_domain = 'ml';
+                gr.role = 'fse';
+            } else if (current.avg_assessment_score >= 50 && current.avg_assessment_score < 80) {
+                gr.work_domain = 'sd';
+                gr.role = 'fse';
+            } else {
+                gr.work_domain = 'tr';
+                gr.role = 'ase';
+            }
+        }
+        if (current.skill == 'jv') {
+            if (current.avg_assessment_score >= 60) {
+                gr.work_domain = 'sd';
+                gr.role = 'fse';
+            } else if (current.avg_assessment_score <60) {
+                gr.work_domain = 'tr';
+                gr.role = 'ase';
+            }
+        }
+        if (current.skill == 'js') {
+            if (current.avg_assessment_score >= 75) {
+                gr.work_domain = 'sn';
+                gr.role = 'pa';
+            } else if (current.avg_assessment_score >= 50 && current.avg_assessment_score < 75) {
+                gr.work_domain = 'sn';
+                gr.role = 'pat';
+            } else {
+                gr.work_domain = 'wd';
+                gr.role = 'ase';
+            }
+        }
+        if (current.skill == 'dt') {
+            if (current.avg_assessment_score >= 60) {
+                gr.work_domain = 'ad';
+                gr.role = 'fse';
+            } else {
+                gr.work_domain = 'tr';
+                gr.role = 'ase';
+            }
+        }
+        if (current.skill == 'aws') {
+            if (current.avg_assessment_score >= 80) {
+				gr.work_domain = 'cc';
+                gr.role = 'ca';
+            }
+			else if (current.avg_assessment_score >= 55 && current.avg_assessment_score < 80) {
+				gr.work_domain = 'cc';
+                gr.role = 'cae';
+            }
+			else {
+				gr.work_domain = 'cc';
+                gr.role = 'cne';
+            }
+        }
+        gr.employee = current.getValue('employee_id');
+        gr.update();
+    }
+
+
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -50,7 +104,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>574caaeb1b1470108a79ece4604bcb6e</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>68</sys_mod_count>
         <sys_name>Assigning Domains and Roles</sys_name>
         <sys_overrides/>
         <sys_package display_value="Employee Role and Domain Assignment" source="x_566928_employee">dac414671b9c30108a79ece4604bcb54</sys_package>
@@ -58,7 +112,7 @@
         <sys_scope display_value="Employee Role and Domain Assignment">dac414671b9c30108a79ece4604bcb54</sys_scope>
         <sys_update_name>sys_script_574caaeb1b1470108a79ece4604bcb6e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-05-29 20:12:48</sys_updated_on>
+        <sys_updated_on>2021-06-10 06:19:32</sys_updated_on>
         <template/>
         <when>async</when>
     </sys_script>

@@ -21,6 +21,25 @@
             <element>skill</element>
             <hint/>
             <inactive>false</inactive>
+            <label>AWS</label>
+            <language>en</language>
+            <name>x_566928_employee_employee_assignment</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-06 07:02:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7f6f05021ba4f4108a79ece4604bcbdb</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-06 07:02:49</sys_updated_on>
+            <value>aws</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>skill</element>
+            <hint/>
+            <inactive>false</inactive>
             <label>Dart</label>
             <language>en</language>
             <name>x_566928_employee_employee_assignment</name>

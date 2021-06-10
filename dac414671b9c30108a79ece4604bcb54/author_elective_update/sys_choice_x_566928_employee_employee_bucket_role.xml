@@ -40,6 +40,25 @@
             <element>role</element>
             <hint/>
             <inactive>false</inactive>
+            <label>Associate Software Engineer</label>
+            <language>en</language>
+            <name>x_566928_employee_employee_bucket</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-09 10:54:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b512214b1bec30108a79ece4604bcb61</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-09 11:56:17</sys_updated_on>
+            <value>ase</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>role</element>
+            <hint/>
+            <inactive>false</inactive>
             <label>Front End</label>
             <language>en</language>
             <name>x_566928_employee_employee_bucket</name>
@@ -59,7 +78,7 @@
             <element>role</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Full Stack</label>
+            <label>Full Stack Engineer</label>
             <language>en</language>
             <name>x_566928_employee_employee_bucket</name>
             <sequence>2</sequence>
@@ -68,10 +87,10 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>3f477ea31b5470108a79ece4604bcb47</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-05-29 20:07:14</sys_updated_on>
-            <value>fs</value>
+            <sys_updated_on>2021-06-09 10:53:12</sys_updated_on>
+            <value>fse</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -110,25 +129,6 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2021-05-29 20:07:14</sys_updated_on>
             <value>pat</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>role</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Tester</label>
-            <language>en</language>
-            <name>x_566928_employee_employee_bucket</name>
-            <sequence>5</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-05-29 20:07:14</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>b3477ea31b5470108a79ece4604bcb4b</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-05-29 20:07:14</sys_updated_on>
-            <value>tester</value>
         </sys_choice>
     </sys_choice>
 </record_update>

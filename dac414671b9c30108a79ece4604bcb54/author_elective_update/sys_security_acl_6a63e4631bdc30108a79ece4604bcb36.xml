@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Default access control on x_566928_employee_domain_assigner</description>
+        <name>x_566928_employee_domain_assigner</name>
+        <operation display_value="delete">delete</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-29 09:21:05</sys_created_on>
+        <sys_id>6a63e4631bdc30108a79ece4604bcb36</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_566928_employee_domain_assigner</sys_name>
+        <sys_package display_value="Employee Role and Domain Assignment" source="x_566928_employee">dac414671b9c30108a79ece4604bcb54</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Role and Domain Assignment">dac414671b9c30108a79ece4604bcb54</sys_scope>
+        <sys_update_name>sys_security_acl_6a63e4631bdc30108a79ece4604bcb36</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-29 09:21:05</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Employee Role and Domain Assignment">dac414671b9c30108a79ece4604bcb54</application>
+        <file_path/>
+        <instance_id>51cbda16db007810d5c911f8489619bc</instance_id>
+        <instance_name>dev115974</instance_name>
+        <name>sys_security_acl_6a63e4631bdc30108a79ece4604bcb36</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on x_566928_employee_domain_assigner</description><name>x_566928_employee_domain_assigner</name><operation display_value="delete">delete</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-05-29 09:21:05</sys_created_on><sys_id>6a63e4631bdc30108a79ece4604bcb36</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_566928_employee_domain_assigner</sys_name><sys_package display_value="Employee Role and Domain Assignment" source="x_566928_employee">dac414671b9c30108a79ece4604bcb54</sys_package><sys_policy/><sys_scope display_value="Employee Role and Domain Assignment">dac414671b9c30108a79ece4604bcb54</sys_scope><sys_update_name>sys_security_acl_6a63e4631bdc30108a79ece4604bcb36</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-05-29 09:21:05</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>1174804871</payload_hash>
+        <record_name>x_566928_employee_domain_assigner</record_name>
+        <reverted_from/>
+        <source>56c418e71b9c30108a79ece4604bcb0c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-29 09:21:05</sys_created_on>
+        <sys_id>6263e4631bdc30108a79ece4604bcb39</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>179b76d503b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-29 09:21:05</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>aa63e463b2dc30101e25d70a1edbe338</update_guid>
+        <update_guid_history>aa63e463b2dc30101e25d70a1edbe338:1174804871</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-09 15:16:14</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>61550b83f90544c98b48930f48ffdd59</sys_id>
+        <sys_metadata>6a63e4631bdc30108a79ece4604bcb36</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_566928_employee_domain_assigner</sys_name>
+        <sys_package display_value="Employee Role and Domain Assignment" source="x_566928_employee">dac414671b9c30108a79ece4604bcb54</sys_package>
+        <sys_parent display_value="">2a63e4631bdc30108a79ece4604bcb3c</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Employee Role and Domain Assignment">dac414671b9c30108a79ece4604bcb54</sys_scope>
+        <sys_scope_delete display_value="">5bf57aef587240c0b3f9aedd49323dc4</sys_scope_delete>
+        <sys_update_name>sys_security_acl_6a63e4631bdc30108a79ece4604bcb36</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_6a63e4631bdc30108a79ece4604bcb36">6263e4631bdc30108a79ece4604bcb39</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-09 15:16:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
