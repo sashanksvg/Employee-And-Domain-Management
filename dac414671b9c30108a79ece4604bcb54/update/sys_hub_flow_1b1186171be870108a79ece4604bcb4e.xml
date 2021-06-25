@@ -11,13 +11,13 @@
         <copied_from_name/>
         <description/>
         <internal_name>erd_approve_flow</internal_name>
-        <label_cache>[{"name":"0af4b102-dcac-4739-b036-a7877f7ab43a.table_name","label":"6➛Employee Assignment Table","reference":"x_566928_employee_employee_assignment","reference_display":"Employee Assignment","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0af4b102-dcac-4739-b036-a7877f7ab43a.record","label":"6➛Employee Assignment Record","reference":"x_566928_employee_employee_assignment","reference_display":"Employee Assignment","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b3eb0c49-38b6-4b80-88b3-5b8276e2a275.table_name","label":"4➛Employee Assignment Table","reference":"x_566928_employee_employee_assignment","reference_display":"Employee Assignment","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b3eb0c49-38b6-4b80-88b3-5b8276e2a275.record","label":"4➛Employee Assignment Record","reference":"x_566928_employee_employee_assignment","reference_display":"Employee Assignment","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.742f822c1be8f0108a79ece4604bcb40}}","label":"Emp_Approver ","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"f4672074-dff6-42aa-b159-068820c791df.approval_state","label":"2➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current","label":"Trigger➛Employee Assignment Record","reference":"x_566928_employee_employee_assignment","reference_display":"Employee Assignment","type":"reference","base_type":"reference","attributes":{}},{"name":"615d9ca8-79d8-44b0-82f8-190e99af6498.table_name","label":"1➛Employee Assignment Table","reference":"x_566928_employee_employee_assignment","reference_display":"Employee Assignment","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"615d9ca8-79d8-44b0-82f8-190e99af6498.record","label":"1➛Employee Assignment Record","reference":"x_566928_employee_employee_assignment","reference_display":"Employee Assignment","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
-        <latest_snapshot>c5d50a1b1be870108a79ece4604bcbfd</latest_snapshot>
+        <label_cache>[{"name":"69d18456-67e0-4e5c-a0db-e5f58936f606.email","label":"6➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b3eb0c49-38b6-4b80-88b3-5b8276e2a275.record.doman","label":"4➛Employee Assignment Record➛Domain","reference":"","reference_display":"Domain","type":"choice","base_type":"choice","parent_table_name":"x_566928_employee_employee_assignment","column_name":"doman"},{"name":"b3eb0c49-38b6-4b80-88b3-5b8276e2a275.record.role","label":"4➛Employee Assignment Record➛Role","reference":"","reference_display":"Role","type":"choice","base_type":"choice","parent_table_name":"x_566928_employee_employee_assignment","column_name":"role"},{"name":"b3eb0c49-38b6-4b80-88b3-5b8276e2a275.record.employee_id","label":"4➛Employee Assignment Record➛Employee Id","reference":"","reference_display":"Employee Id","type":"string","base_type":"string","parent_table_name":"x_566928_employee_employee_assignment","column_name":"employee_id"},{"name":"3ddbaf57-cc76-4605-93ec-d970c85a54ef.email","label":"5➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.employee_id","label":"Trigger➛Employee Assignment Record➛Employee Id","reference":"","reference_display":"Employee Id","type":"string","base_type":"string","parent_table_name":"x_566928_employee_employee_assignment","column_name":"employee_id"},{"name":"28e1fcf2-e818-4646-b1a0-42341c6545cf.email","label":"7➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0af4b102-dcac-4739-b036-a7877f7ab43a.table_name","label":"6➛Employee Assignment Table","reference":"x_566928_employee_employee_assignment","reference_display":"Employee Assignment","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0af4b102-dcac-4739-b036-a7877f7ab43a.record","label":"6➛Employee Assignment Record","reference":"x_566928_employee_employee_assignment","reference_display":"Employee Assignment","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b3eb0c49-38b6-4b80-88b3-5b8276e2a275.table_name","label":"4➛Employee Assignment Table","reference":"x_566928_employee_employee_assignment","reference_display":"Employee Assignment","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b3eb0c49-38b6-4b80-88b3-5b8276e2a275.record","label":"4➛Employee Assignment Record","reference":"x_566928_employee_employee_assignment","reference_display":"Employee Assignment","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.742f822c1be8f0108a79ece4604bcb40}}","label":"Emp_Approver ","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"f4672074-dff6-42aa-b159-068820c791df.approval_state","label":"2➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current","label":"Trigger➛Employee Assignment Record","reference":"x_566928_employee_employee_assignment","reference_display":"Employee Assignment","type":"reference","base_type":"reference","attributes":{}},{"name":"615d9ca8-79d8-44b0-82f8-190e99af6498.table_name","label":"1➛Employee Assignment Table","reference":"x_566928_employee_employee_assignment","reference_display":"Employee Assignment","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"615d9ca8-79d8-44b0-82f8-190e99af6498.record","label":"1➛Employee Assignment Record","reference":"x_566928_employee_employee_assignment","reference_display":"Employee Assignment","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <latest_snapshot>ace368401b8530108a79ece4604bcbdd</latest_snapshot>
         <master_snapshot>f1d2ca571be870108a79ece4604bcb87</master_snapshot>
         <name>ERD_Approve_Flow</name>
         <natlang/>
         <outputs/>
-        <remote_trigger_id>afb5861b1be870108a79ece4604bcbe3</remote_trigger_id>
+        <remote_trigger_id>dab3a4401b8530108a79ece4604bcb0a</remote_trigger_id>
         <run_as>user</run_as>
         <run_with_roles/>
         <sc_callable>false</sc_callable>
@@ -30,7 +30,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>1b1186171be870108a79ece4604bcb4e</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_name>ERD_Approve_Flow</sys_name>
         <sys_overrides/>
         <sys_package display_value="Employee Role and Domain Assignment" source="x_566928_employee">dac414671b9c30108a79ece4604bcb54</sys_package>
@@ -38,7 +38,7 @@
         <sys_scope display_value="Employee Role and Domain Assignment">dac414671b9c30108a79ece4604bcb54</sys_scope>
         <sys_update_name>sys_hub_flow_1b1186171be870108a79ece4604bcb4e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-10 08:07:55</sys_updated_on>
+        <sys_updated_on>2021-06-24 19:10:47</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=1b1186171be870108a79ece4604bcb4e"/>
@@ -58,42 +58,42 @@
         <run_when_user_setting>any</run_when_user_setting>
         <sys_class_name>sys_flow_record_trigger</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-06-10 08:07:54</sys_created_on>
+        <sys_created_on>2021-06-24 19:10:46</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>afb5861b1be870108a79ece4604bcbe3</sys_id>
+        <sys_id>dab3a4401b8530108a79ece4604bcb0a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_overrides/>
         <sys_scope display_value="Employee Role and Domain Assignment">dac414671b9c30108a79ece4604bcb54</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-10 08:07:54</sys_updated_on>
+        <sys_updated_on>2021-06-24 19:10:46</sys_updated_on>
         <table>x_566928_employee_employee_assignment</table>
     </sys_flow_record_trigger>
     <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
         <active>true</active>
-        <data>{"table":"sys_trigger_runner_mapping","id":"2bb5861b1be870108a79ece4604bcbe4","name":"trigger_runner","type":"java.util.Collections$UnmodifiableMap"}</data>
+        <data>{"table":"sys_trigger_runner_mapping","id":"52b3a4401b8530108a79ece4604bcb0b","name":"trigger_runner","type":"java.util.Collections$UnmodifiableMap"}</data>
         <identifier>1b1186171be870108a79ece4604bcb4e</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-06-10 08:07:54</sys_created_on>
-        <sys_id>2bb5861b1be870108a79ece4604bcbe4</sys_id>
+        <sys_created_on>2021-06-24 19:10:46</sys_created_on>
+        <sys_id>52b3a4401b8530108a79ece4604bcb0b</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-10 08:07:54</sys_updated_on>
-        <trigger display_value="">afb5861b1be870108a79ece4604bcbe3</trigger>
+        <sys_updated_on>2021-06-24 19:10:46</sys_updated_on>
+        <trigger display_value="">dab3a4401b8530108a79ece4604bcb0a</trigger>
     </sys_trigger_runner_mapping>
     <sys_json_chunk action="INSERT_OR_UPDATE">
         <data>H4sIAAAAAAAAAGXLWwqAIBBA0b3MdytwKxGD5fggGUFHLKK99yAo6Pce7ga5MtqYGgYGBaOeZpdTZQPdTc0TYy2UMYYioPrh0wuJBHbXl8T/jpc1r48mRlqE2JA5u9WxEOwH5v2lw4YAAAA=</data>
-        <document_id>2bb5861b1be870108a79ece4604bcbe4</document_id>
+        <document_id>52b3a4401b8530108a79ece4604bcb0b</document_id>
         <field>trigger_runner</field>
         <length>144</length>
         <position>0</position>
         <source_table>sys_trigger_runner_mapping</source_table>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-06-10 08:07:54</sys_created_on>
-        <sys_id>afb5861b1be870108a79ece4604bcbe4</sys_id>
+        <sys_created_on>2021-06-24 19:10:46</sys_created_on>
+        <sys_id>d2b3a4401b8530108a79ece4604bcb0b</sys_id>
     </sys_json_chunk>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=1b1186171be870108a79ece4604bcb4e^sys_idNOT IN2bb5861b1be870108a79ece4604bcbe4"/>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=1b1186171be870108a79ece4604bcb4e^sys_idNOT IN52b3a4401b8530108a79ece4604bcb0b"/>
     <sys_hub_flow_component action="delete_multiple" query="flow=1b1186171be870108a79ece4604bcb4e^sys_idNOT IN37c28a571be870108a79ece4604bcb23,7bc28a571be870108a79ece4604bcb1a,a7c28a571be870108a79ece4604bcb08,bbc28a571be870108a79ece4604bcb0f,bbc28a571be870108a79ece4604bcb13,ffc28a571be870108a79ece4604bcb1c"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
@@ -110,10 +110,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-10 07:55:04</sys_created_on>
         <sys_id>37c28a571be870108a79ece4604bcb23</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>46</sys_mod_count>
         <sys_scope display_value="Employee Role and Domain Assignment">dac414671b9c30108a79ece4604bcb54</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-10 08:08:17</sys_updated_on>
+        <sys_updated_on>2021-06-24 19:11:30</sys_updated_on>
         <ui_id>0af4b102-dcac-4739-b036-a7877f7ab43a</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=37c28a571be870108a79ece4604bcb23"/>
@@ -197,10 +197,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-10 07:55:04</sys_created_on>
         <sys_id>7bc28a571be870108a79ece4604bcb1a</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>46</sys_mod_count>
         <sys_scope display_value="Employee Role and Domain Assignment">dac414671b9c30108a79ece4604bcb54</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-10 08:08:17</sys_updated_on>
+        <sys_updated_on>2021-06-24 19:11:30</sys_updated_on>
         <ui_id>b3eb0c49-38b6-4b80-88b3-5b8276e2a275</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=7bc28a571be870108a79ece4604bcb1a"/>
@@ -284,10 +284,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-10 07:55:04</sys_created_on>
         <sys_id>a7c28a571be870108a79ece4604bcb08</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>46</sys_mod_count>
         <sys_scope display_value="Employee Role and Domain Assignment">dac414671b9c30108a79ece4604bcb54</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-10 08:08:17</sys_updated_on>
+        <sys_updated_on>2021-06-24 19:11:30</sys_updated_on>
         <ui_id>615d9ca8-79d8-44b0-82f8-190e99af6498</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=a7c28a571be870108a79ece4604bcb08"/>
@@ -371,10 +371,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-10 07:55:04</sys_created_on>
         <sys_id>bbc28a571be870108a79ece4604bcb0f</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>46</sys_mod_count>
         <sys_scope display_value="Employee Role and Domain Assignment">dac414671b9c30108a79ece4604bcb54</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-10 08:08:17</sys_updated_on>
+        <sys_updated_on>2021-06-24 19:11:30</sys_updated_on>
         <ui_id>f4672074-dff6-42aa-b159-068820c791df</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=bbc28a571be870108a79ece4604bcb0f"/>
@@ -501,10 +501,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-10 07:55:04</sys_created_on>
         <sys_id>bbc28a571be870108a79ece4604bcb13</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_scope display_value="Employee Role and Domain Assignment">dac414671b9c30108a79ece4604bcb54</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-10 08:07:54</sys_updated_on>
+        <sys_updated_on>2021-06-24 19:10:47</sys_updated_on>
         <ui_id>8a798e66-40ff-4836-bb05-9420b7f87833</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -543,10 +543,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-10 07:55:04</sys_created_on>
         <sys_id>ffc28a571be870108a79ece4604bcb1c</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_scope display_value="Employee Role and Domain Assignment">dac414671b9c30108a79ece4604bcb54</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-10 08:07:54</sys_updated_on>
+        <sys_updated_on>2021-06-24 19:10:47</sys_updated_on>
         <ui_id>efa29681-225c-4c08-898d-e9c331828f25</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -575,10 +575,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-10 07:55:04</sys_created_on>
         <sys_id>abc28a571be870108a79ece4604bcb02</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-10 08:07:54</sys_updated_on>
+        <sys_updated_on>2021-06-24 19:10:47</sys_updated_on>
         <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -702,14 +702,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-10 07:55:04</sys_created_on>
         <sys_id>67c24a571be870108a79ece4604bcbfb</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Employee Role and Domain Assignment">dac414671b9c30108a79ece4604bcb54</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-10 08:07:54</sys_updated_on>
+        <sys_updated_on>2021-06-24 19:10:47</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -725,7 +725,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDd3b5861ba5e870103a6874f2d1989b5b,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FD79b3644092853010f690502298586b94,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -783,14 +783,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-10 07:55:04</sys_created_on>
         <sys_id>6bc24a571be870108a79ece4604bcbf5</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Employee Role and Domain Assignment">dac414671b9c30108a79ece4604bcb54</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-10 08:07:54</sys_updated_on>
+        <sys_updated_on>2021-06-24 19:10:47</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -864,14 +864,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-10 07:55:03</sys_created_on>
         <sys_id>a7c24a571be870108a79ece4604bcbef</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Employee Role and Domain Assignment">dac414671b9c30108a79ece4604bcb54</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-10 08:07:54</sys_updated_on>
+        <sys_updated_on>2021-06-24 19:10:47</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -899,10 +899,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-10 07:55:04</sys_created_on>
         <sys_id>37c28a571be870108a79ece4604bcb23</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>46</sys_mod_count>
         <sys_scope display_value="Employee Role and Domain Assignment">dac414671b9c30108a79ece4604bcb54</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-10 08:08:17</sys_updated_on>
+        <sys_updated_on>2021-06-24 19:11:30</sys_updated_on>
         <ui_id>0af4b102-dcac-4739-b036-a7877f7ab43a</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=37c28a571be870108a79ece4604bcb23"/>
@@ -986,10 +986,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-10 07:55:04</sys_created_on>
         <sys_id>7bc28a571be870108a79ece4604bcb1a</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>46</sys_mod_count>
         <sys_scope display_value="Employee Role and Domain Assignment">dac414671b9c30108a79ece4604bcb54</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-10 08:08:17</sys_updated_on>
+        <sys_updated_on>2021-06-24 19:11:30</sys_updated_on>
         <ui_id>b3eb0c49-38b6-4b80-88b3-5b8276e2a275</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=7bc28a571be870108a79ece4604bcb1a"/>
@@ -1073,10 +1073,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-10 07:55:04</sys_created_on>
         <sys_id>a7c28a571be870108a79ece4604bcb08</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>46</sys_mod_count>
         <sys_scope display_value="Employee Role and Domain Assignment">dac414671b9c30108a79ece4604bcb54</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-10 08:08:17</sys_updated_on>
+        <sys_updated_on>2021-06-24 19:11:30</sys_updated_on>
         <ui_id>615d9ca8-79d8-44b0-82f8-190e99af6498</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=a7c28a571be870108a79ece4604bcb08"/>
@@ -1160,10 +1160,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-10 07:55:04</sys_created_on>
         <sys_id>bbc28a571be870108a79ece4604bcb0f</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>46</sys_mod_count>
         <sys_scope display_value="Employee Role and Domain Assignment">dac414671b9c30108a79ece4604bcb54</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-10 08:08:17</sys_updated_on>
+        <sys_updated_on>2021-06-24 19:11:30</sys_updated_on>
         <ui_id>f4672074-dff6-42aa-b159-068820c791df</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=bbc28a571be870108a79ece4604bcb0f"/>
@@ -1291,10 +1291,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-10 07:55:04</sys_created_on>
         <sys_id>bbc28a571be870108a79ece4604bcb13</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_scope display_value="Employee Role and Domain Assignment">dac414671b9c30108a79ece4604bcb54</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-10 08:07:54</sys_updated_on>
+        <sys_updated_on>2021-06-24 19:10:47</sys_updated_on>
         <ui_id>8a798e66-40ff-4836-bb05-9420b7f87833</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1333,10 +1333,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-10 07:55:04</sys_created_on>
         <sys_id>ffc28a571be870108a79ece4604bcb1c</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_scope display_value="Employee Role and Domain Assignment">dac414671b9c30108a79ece4604bcb54</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-10 08:07:54</sys_updated_on>
+        <sys_updated_on>2021-06-24 19:10:47</sys_updated_on>
         <ui_id>efa29681-225c-4c08-898d-e9c331828f25</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1355,6 +1355,92 @@
         <table>var__m_sys_hub_flow_logic_input_666e5545c3e232002841b63b12d3ae99</table>
         <value>{{f4672074-dff6-42aa-b159-068820c791df.approval_state}}=rejected</value>
     </sys_element_mapping>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=1b1186171be870108a79ece4604bcb4e^sys_idNOT IN2290208c1b4530108a79ece4604bcb6f,3a1c9c881b4530108a79ece4604bcb5f,aa90208c1b4530108a79ece4604bcb6f,e690208c1b4530108a79ece4604bcb6f,fe1c9c881b4530108a79ece4604bcb5e"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>1b1186171be870108a79ece4604bcb4e</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{b3eb0c49-38b6-4b80-88b3-5b8276e2a275.record}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-24 18:57:08</sys_created_on>
+        <sys_id>2290208c1b4530108a79ece4604bcb6f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Employee Role and Domain Assignment">dac414671b9c30108a79ece4604bcb54</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-24 18:57:08</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>a8550197-4f0d-4383-aa3b-d55e0fc29f57</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>1b1186171be870108a79ece4604bcb4e</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{b3eb0c49-38b6-4b80-88b3-5b8276e2a275.record.doman}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-24 18:37:30</sys_created_on>
+        <sys_id>3a1c9c881b4530108a79ece4604bcb5f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Employee Role and Domain Assignment">dac414671b9c30108a79ece4604bcb54</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-24 18:37:30</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>1b4f5215-c86a-46ee-8426-b8965c20d3a0</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>1b1186171be870108a79ece4604bcb4e</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{b3eb0c49-38b6-4b80-88b3-5b8276e2a275.record.doman}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-24 18:57:08</sys_created_on>
+        <sys_id>aa90208c1b4530108a79ece4604bcb6f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Employee Role and Domain Assignment">dac414671b9c30108a79ece4604bcb54</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-24 18:57:08</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>729862f7-66be-4fb2-99a5-7cd1212e08c1</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>1b1186171be870108a79ece4604bcb4e</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{b3eb0c49-38b6-4b80-88b3-5b8276e2a275.record.role}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-24 18:57:08</sys_created_on>
+        <sys_id>e690208c1b4530108a79ece4604bcb6f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Employee Role and Domain Assignment">dac414671b9c30108a79ece4604bcb54</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-24 18:57:08</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>09725a46-3dbe-4f34-abdf-6ca4e1adf9aa</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>1b1186171be870108a79ece4604bcb4e</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{b3eb0c49-38b6-4b80-88b3-5b8276e2a275.record.role}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-24 18:37:30</sys_created_on>
+        <sys_id>fe1c9c881b4530108a79ece4604bcb5e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Employee Role and Domain Assignment">dac414671b9c30108a79ece4604bcb54</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-24 18:37:30</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>bd4f708f-f3b3-4af9-b94d-4994318cfe83</ui_id>
+    </sys_hub_pill_compound>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_1b1186171be870108a79ece4604bcb4e^sys_idNOT INa7c24a571be870108a79ece4604bcbff,e3c24a571be870108a79ece4604bcbf4,efc24a571be870108a79ece4604bcbf9"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>table_name</element>
@@ -1430,18 +1516,18 @@
         <binding_strategy>com.snc.process_flow.engine.binding.Every</binding_strategy>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"5ed20e571be870108a79ece4604bcb1a","name":"plan"}}</plan>
         <plan_id>1b1186171be870108a79ece4604bcb4e</plan_id>
-        <snapshot>c5d50a1b1be870108a79ece4604bcbfd</snapshot>
+        <snapshot>ace368401b8530108a79ece4604bcbdd</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-10 07:55:15</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>5ed20e571be870108a79ece4604bcb1a</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-10 08:07:54</sys_updated_on>
-        <trigger display_value="">afb5861b1be870108a79ece4604bcbe3</trigger>
+        <sys_updated_on>2021-06-24 19:10:46</sys_updated_on>
+        <trigger display_value="">dab3a4401b8530108a79ece4604bcb0a</trigger>
     </sys_flow_trigger_plan>
     <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -1454,7 +1540,7 @@
         <copied_from_name/>
         <description/>
         <internal_name>erd_approve_flow</internal_name>
-        <label_cache>[{"name":"0af4b102-dcac-4739-b036-a7877f7ab43a.table_name","label":"6➛Employee Assignment Table","reference":"x_566928_employee_employee_assignment","reference_display":"Employee Assignment","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0af4b102-dcac-4739-b036-a7877f7ab43a.record","label":"6➛Employee Assignment Record","reference":"x_566928_employee_employee_assignment","reference_display":"Employee Assignment","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b3eb0c49-38b6-4b80-88b3-5b8276e2a275.table_name","label":"4➛Employee Assignment Table","reference":"x_566928_employee_employee_assignment","reference_display":"Employee Assignment","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b3eb0c49-38b6-4b80-88b3-5b8276e2a275.record","label":"4➛Employee Assignment Record","reference":"x_566928_employee_employee_assignment","reference_display":"Employee Assignment","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.742f822c1be8f0108a79ece4604bcb40}}","label":"Emp_Approver ","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"f4672074-dff6-42aa-b159-068820c791df.approval_state","label":"2➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current","label":"Trigger➛Employee Assignment Record","reference":"x_566928_employee_employee_assignment","reference_display":"Employee Assignment","type":"reference","base_type":"reference","attributes":{}},{"name":"615d9ca8-79d8-44b0-82f8-190e99af6498.table_name","label":"1➛Employee Assignment Table","reference":"x_566928_employee_employee_assignment","reference_display":"Employee Assignment","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"615d9ca8-79d8-44b0-82f8-190e99af6498.record","label":"1➛Employee Assignment Record","reference":"x_566928_employee_employee_assignment","reference_display":"Employee Assignment","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <label_cache>[{"name":"69d18456-67e0-4e5c-a0db-e5f58936f606.email","label":"6➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b3eb0c49-38b6-4b80-88b3-5b8276e2a275.record.doman","label":"4➛Employee Assignment Record➛Domain","reference":"","reference_display":"Domain","type":"choice","base_type":"choice","parent_table_name":"x_566928_employee_employee_assignment","column_name":"doman"},{"name":"b3eb0c49-38b6-4b80-88b3-5b8276e2a275.record.role","label":"4➛Employee Assignment Record➛Role","reference":"","reference_display":"Role","type":"choice","base_type":"choice","parent_table_name":"x_566928_employee_employee_assignment","column_name":"role"},{"name":"b3eb0c49-38b6-4b80-88b3-5b8276e2a275.record.employee_id","label":"4➛Employee Assignment Record➛Employee Id","reference":"","reference_display":"Employee Id","type":"string","base_type":"string","parent_table_name":"x_566928_employee_employee_assignment","column_name":"employee_id"},{"name":"3ddbaf57-cc76-4605-93ec-d970c85a54ef.email","label":"5➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.employee_id","label":"Trigger➛Employee Assignment Record➛Employee Id","reference":"","reference_display":"Employee Id","type":"string","base_type":"string","parent_table_name":"x_566928_employee_employee_assignment","column_name":"employee_id"},{"name":"28e1fcf2-e818-4646-b1a0-42341c6545cf.email","label":"7➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0af4b102-dcac-4739-b036-a7877f7ab43a.table_name","label":"6➛Employee Assignment Table","reference":"x_566928_employee_employee_assignment","reference_display":"Employee Assignment","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0af4b102-dcac-4739-b036-a7877f7ab43a.record","label":"6➛Employee Assignment Record","reference":"x_566928_employee_employee_assignment","reference_display":"Employee Assignment","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b3eb0c49-38b6-4b80-88b3-5b8276e2a275.table_name","label":"4➛Employee Assignment Table","reference":"x_566928_employee_employee_assignment","reference_display":"Employee Assignment","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b3eb0c49-38b6-4b80-88b3-5b8276e2a275.record","label":"4➛Employee Assignment Record","reference":"x_566928_employee_employee_assignment","reference_display":"Employee Assignment","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.742f822c1be8f0108a79ece4604bcb40}}","label":"Emp_Approver ","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"f4672074-dff6-42aa-b159-068820c791df.approval_state","label":"2➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current","label":"Trigger➛Employee Assignment Record","reference":"x_566928_employee_employee_assignment","reference_display":"Employee Assignment","type":"reference","base_type":"reference","attributes":{}},{"name":"615d9ca8-79d8-44b0-82f8-190e99af6498.table_name","label":"1➛Employee Assignment Table","reference":"x_566928_employee_employee_assignment","reference_display":"Employee Assignment","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"615d9ca8-79d8-44b0-82f8-190e99af6498.record","label":"1➛Employee Assignment Record","reference":"x_566928_employee_employee_assignment","reference_display":"Employee Assignment","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
         <master>true</master>
         <name>ERD_Approve_Flow</name>
         <natlang/>
@@ -1471,7 +1557,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f1d2ca571be870108a79ece4604bcb87</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1479,7 +1565,7 @@
         <sys_scope display_value="Employee Role and Domain Assignment">dac414671b9c30108a79ece4604bcb54</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-10 08:07:53</sys_updated_on>
+        <sys_updated_on>2021-06-24 19:10:46</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=f1d2ca571be870108a79ece4604bcb87"/>
@@ -1500,10 +1586,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-10 07:55:14</sys_created_on>
         <sys_id>1ad2ca571be870108a79ece4604bcbd5</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_scope display_value="Employee Role and Domain Assignment">dac414671b9c30108a79ece4604bcb54</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-10 08:07:53</sys_updated_on>
+        <sys_updated_on>2021-06-24 19:10:46</sys_updated_on>
         <ui_id>b3eb0c49-38b6-4b80-88b3-5b8276e2a275</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=1ad2ca571be870108a79ece4604bcbd5"/>
@@ -1592,10 +1678,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-10 07:55:13</sys_created_on>
         <sys_id>35d2ca571be870108a79ece4604bcbbf</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_scope display_value="Employee Role and Domain Assignment">dac414671b9c30108a79ece4604bcb54</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-10 08:07:53</sys_updated_on>
+        <sys_updated_on>2021-06-24 19:10:46</sys_updated_on>
         <ui_id>efa29681-225c-4c08-898d-e9c331828f25</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1634,10 +1720,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-10 07:55:13</sys_created_on>
         <sys_id>3dd2ca571be870108a79ece4604bcbbb</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Employee Role and Domain Assignment">dac414671b9c30108a79ece4604bcb54</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-10 08:07:53</sys_updated_on>
+        <sys_updated_on>2021-06-24 19:10:46</sys_updated_on>
         <ui_id>8a798e66-40ff-4836-bb05-9420b7f87833</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1671,10 +1757,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-10 07:55:14</sys_created_on>
         <sys_id>9ed2ca571be870108a79ece4604bcbda</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_scope display_value="Employee Role and Domain Assignment">dac414671b9c30108a79ece4604bcb54</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-10 08:07:53</sys_updated_on>
+        <sys_updated_on>2021-06-24 19:10:46</sys_updated_on>
         <ui_id>0af4b102-dcac-4739-b036-a7877f7ab43a</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=9ed2ca571be870108a79ece4604bcbda"/>
@@ -1758,10 +1844,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-10 07:55:13</sys_created_on>
         <sys_id>f1d2ca571be870108a79ece4604bcbc7</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_scope display_value="Employee Role and Domain Assignment">dac414671b9c30108a79ece4604bcb54</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-10 08:07:53</sys_updated_on>
+        <sys_updated_on>2021-06-24 19:10:45</sys_updated_on>
         <ui_id>615d9ca8-79d8-44b0-82f8-190e99af6498</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=f1d2ca571be870108a79ece4604bcbc7"/>
@@ -1845,10 +1931,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-10 07:55:13</sys_created_on>
         <sys_id>f1d2ca571be870108a79ece4604bcbcf</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_scope display_value="Employee Role and Domain Assignment">dac414671b9c30108a79ece4604bcb54</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-10 08:07:53</sys_updated_on>
+        <sys_updated_on>2021-06-24 19:10:45</sys_updated_on>
         <ui_id>f4672074-dff6-42aa-b159-068820c791df</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=f1d2ca571be870108a79ece4604bcbcf"/>
@@ -1965,10 +2051,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-10 07:55:14</sys_created_on>
         <sys_id>9ed2ca571be870108a79ece4604bcbdc</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-10 08:07:54</sys_updated_on>
+        <sys_updated_on>2021-06-24 19:10:46</sys_updated_on>
         <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -2092,14 +2178,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-10 07:55:13</sys_created_on>
         <sys_id>3dd2ca571be870108a79ece4604bcb8a</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Employee Role and Domain Assignment">dac414671b9c30108a79ece4604bcb54</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-10 08:07:53</sys_updated_on>
+        <sys_updated_on>2021-06-24 19:10:45</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2115,7 +2201,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDd3b5861ba5e870103a6874f2d1989b5b,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FD79b3644092853010f690502298586b94,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -2173,14 +2259,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-10 07:55:13</sys_created_on>
         <sys_id>f1d2ca571be870108a79ece4604bcba4</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Employee Role and Domain Assignment">dac414671b9c30108a79ece4604bcb54</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-10 08:07:53</sys_updated_on>
+        <sys_updated_on>2021-06-24 19:10:45</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2254,14 +2340,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-10 07:55:13</sys_created_on>
         <sys_id>f5d2ca571be870108a79ece4604bcbae</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Employee Role and Domain Assignment">dac414671b9c30108a79ece4604bcb54</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-10 08:07:53</sys_updated_on>
+        <sys_updated_on>2021-06-24 19:10:45</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2289,10 +2375,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-10 07:55:14</sys_created_on>
         <sys_id>1ad2ca571be870108a79ece4604bcbd5</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_scope display_value="Employee Role and Domain Assignment">dac414671b9c30108a79ece4604bcb54</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-10 08:07:53</sys_updated_on>
+        <sys_updated_on>2021-06-24 19:10:46</sys_updated_on>
         <ui_id>b3eb0c49-38b6-4b80-88b3-5b8276e2a275</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=1ad2ca571be870108a79ece4604bcbd5"/>
@@ -2376,10 +2462,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-10 07:55:14</sys_created_on>
         <sys_id>9ed2ca571be870108a79ece4604bcbda</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_scope display_value="Employee Role and Domain Assignment">dac414671b9c30108a79ece4604bcb54</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-10 08:07:53</sys_updated_on>
+        <sys_updated_on>2021-06-24 19:10:46</sys_updated_on>
         <ui_id>0af4b102-dcac-4739-b036-a7877f7ab43a</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=9ed2ca571be870108a79ece4604bcbda"/>
@@ -2463,10 +2549,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-10 07:55:13</sys_created_on>
         <sys_id>f1d2ca571be870108a79ece4604bcbc7</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_scope display_value="Employee Role and Domain Assignment">dac414671b9c30108a79ece4604bcb54</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-10 08:07:53</sys_updated_on>
+        <sys_updated_on>2021-06-24 19:10:45</sys_updated_on>
         <ui_id>615d9ca8-79d8-44b0-82f8-190e99af6498</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=f1d2ca571be870108a79ece4604bcbc7"/>
@@ -2550,10 +2636,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-10 07:55:13</sys_created_on>
         <sys_id>f1d2ca571be870108a79ece4604bcbcf</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_scope display_value="Employee Role and Domain Assignment">dac414671b9c30108a79ece4604bcb54</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-10 08:07:53</sys_updated_on>
+        <sys_updated_on>2021-06-24 19:10:45</sys_updated_on>
         <ui_id>f4672074-dff6-42aa-b159-068820c791df</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=f1d2ca571be870108a79ece4604bcbcf"/>
@@ -2681,10 +2767,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-10 07:55:13</sys_created_on>
         <sys_id>35d2ca571be870108a79ece4604bcbbf</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_scope display_value="Employee Role and Domain Assignment">dac414671b9c30108a79ece4604bcb54</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-10 08:07:53</sys_updated_on>
+        <sys_updated_on>2021-06-24 19:10:46</sys_updated_on>
         <ui_id>efa29681-225c-4c08-898d-e9c331828f25</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2723,10 +2809,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-10 07:55:13</sys_created_on>
         <sys_id>3dd2ca571be870108a79ece4604bcbbb</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Employee Role and Domain Assignment">dac414671b9c30108a79ece4604bcb54</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-10 08:07:53</sys_updated_on>
+        <sys_updated_on>2021-06-24 19:10:46</sys_updated_on>
         <ui_id>8a798e66-40ff-4836-bb05-9420b7f87833</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2745,6 +2831,92 @@
         <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
         <value>{{f4672074-dff6-42aa-b159-068820c791df.approval_state}}=approved</value>
     </sys_element_mapping>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=f1d2ca571be870108a79ece4604bcb87^sys_idNOT IN5e2c50c81b4530108a79ece4604bcb4b,76f0e48c1b4530108a79ece4604bcbff,7ef0e48c1b4530108a79ece4604bcbfe,9a2c50c81b4530108a79ece4604bcb4b,b2f0e48c1b4530108a79ece4604bcbff"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>f1d2ca571be870108a79ece4604bcb87</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{b3eb0c49-38b6-4b80-88b3-5b8276e2a275.record.role}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-24 18:37:45</sys_created_on>
+        <sys_id>5e2c50c81b4530108a79ece4604bcb4b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Employee Role and Domain Assignment">dac414671b9c30108a79ece4604bcb54</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-24 18:37:45</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>bd4f708f-f3b3-4af9-b94d-4994318cfe83</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>f1d2ca571be870108a79ece4604bcb87</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{b3eb0c49-38b6-4b80-88b3-5b8276e2a275.record.role}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-24 18:58:48</sys_created_on>
+        <sys_id>76f0e48c1b4530108a79ece4604bcbff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Employee Role and Domain Assignment">dac414671b9c30108a79ece4604bcb54</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-24 18:58:48</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>09725a46-3dbe-4f34-abdf-6ca4e1adf9aa</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>f1d2ca571be870108a79ece4604bcb87</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{b3eb0c49-38b6-4b80-88b3-5b8276e2a275.record.doman}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-24 18:58:48</sys_created_on>
+        <sys_id>7ef0e48c1b4530108a79ece4604bcbfe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Employee Role and Domain Assignment">dac414671b9c30108a79ece4604bcb54</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-24 18:58:48</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>729862f7-66be-4fb2-99a5-7cd1212e08c1</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>f1d2ca571be870108a79ece4604bcb87</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{b3eb0c49-38b6-4b80-88b3-5b8276e2a275.record.doman}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-24 18:37:45</sys_created_on>
+        <sys_id>9a2c50c81b4530108a79ece4604bcb4b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Employee Role and Domain Assignment">dac414671b9c30108a79ece4604bcb54</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-24 18:37:45</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>1b4f5215-c86a-46ee-8426-b8965c20d3a0</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>f1d2ca571be870108a79ece4604bcb87</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{b3eb0c49-38b6-4b80-88b3-5b8276e2a275.record}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-24 18:58:48</sys_created_on>
+        <sys_id>b2f0e48c1b4530108a79ece4604bcbff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Employee Role and Domain Assignment">dac414671b9c30108a79ece4604bcb54</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-24 18:58:48</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>a8550197-4f0d-4383-aa3b-d55e0fc29f57</ui_id>
+    </sys_hub_pill_compound>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_f1d2ca571be870108a79ece4604bcb87^sys_idNOT INf1d2ca571be870108a79ece4604bcba0,f5d2ca571be870108a79ece4604bcbaa,f5d2ca571be870108a79ece4604bcbb4"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>current</element>

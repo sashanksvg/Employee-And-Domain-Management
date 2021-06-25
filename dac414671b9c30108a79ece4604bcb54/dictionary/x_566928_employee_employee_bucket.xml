@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Employee Bucket" max_length="40" name="x_566928_employee_employee_bucket" sizeclass="3" type="collection">
+    <element label="Employee Bucket" max_length="40" name="x_566928_employee_employee_bucket" sizeclass="7" type="collection">
         <element label="Employee ID" max_length="32" name="employee" type="string"/>
+        <element label="Mail" max_length="40" name="mail" type="string"/>
         <element choice="1" choice_field="role" choice_table="x_566928_employee_employee_assignment" default="None" label="Role" max_length="40" name="role" type="string">
             <choice>
                 <element inactive_on_update="false" label="Back End" sequence="0" value="be"/>
