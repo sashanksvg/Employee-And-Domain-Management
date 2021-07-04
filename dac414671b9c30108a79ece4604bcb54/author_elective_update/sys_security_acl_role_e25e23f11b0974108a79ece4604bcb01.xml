@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-30 20:26:01</sys_created_on>
+        <sys_id>e25e23f11b0974108a79ece4604bcb01</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_566928_employee_employee_bucket.approver_user</sys_name>
+        <sys_package display_value="Employee Role and Domain Assignment" source="x_566928_employee">dac414671b9c30108a79ece4604bcb54</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Role and Domain Assignment">dac414671b9c30108a79ece4604bcb54</sys_scope>
+        <sys_security_acl display_value="x_566928_employee_employee_bucket">fc89e5ef1b5070108a79ece4604bcb8c</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_e25e23f11b0974108a79ece4604bcb01</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-30 20:26:01</sys_updated_on>
+        <sys_user_role display_value="approver_user" name="approver_user">debab85bff02110053ccffffffffffb6</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Employee Role and Domain Assignment">dac414671b9c30108a79ece4604bcb54</application>
+        <file_path/>
+        <instance_id>51cbda16db007810d5c911f8489619bc</instance_id>
+        <instance_name>dev115974</instance_name>
+        <name>sys_security_acl_role_e25e23f11b0974108a79ece4604bcb01</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-06-30 20:26:01</sys_created_on><sys_id>e25e23f11b0974108a79ece4604bcb01</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_566928_employee_employee_bucket.approver_user</sys_name><sys_package display_value="Employee Role and Domain Assignment" source="x_566928_employee">dac414671b9c30108a79ece4604bcb54</sys_package><sys_policy/><sys_scope display_value="Employee Role and Domain Assignment">dac414671b9c30108a79ece4604bcb54</sys_scope><sys_security_acl display_value="x_566928_employee_employee_bucket">fc89e5ef1b5070108a79ece4604bcb8c</sys_security_acl><sys_update_name>sys_security_acl_role_e25e23f11b0974108a79ece4604bcb01</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-06-30 20:26:01</sys_updated_on><sys_user_role display_value="approver_user" name="approver_user">debab85bff02110053ccffffffffffb6</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>426408944</payload_hash>
+        <record_name>x_566928_employee_employee_bucket.approver_user</record_name>
+        <reverted_from/>
+        <source>0c3684a41ba4f0108a79ece4604bcb5b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-30 20:26:01</sys_created_on>
+        <sys_id>367eefb11b0974108a79ece4604bcbe6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17a5e99940f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-30 20:26:01</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>7e7eefb16a097410ee6f9953b7b466e5</update_guid>
+        <update_guid_history>7e7eefb16a097410ee6f9953b7b466e5:426408944</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_566928_employee_employee_bucket.approver_user">e6b333f51b0974108a79ece4604bcb38</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-30 20:48:56</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>1150372649eb4c4c9ba30e6046915a10</sys_id>
+        <sys_metadata>e25e23f11b0974108a79ece4604bcb01</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_566928_employee_employee_bucket.approver_user</sys_name>
+        <sys_package display_value="Employee Role and Domain Assignment" source="x_566928_employee">dac414671b9c30108a79ece4604bcb54</sys_package>
+        <sys_parent display_value="x_566928_employee_employee_bucket">fc89e5ef1b5070108a79ece4604bcb8c</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Employee Role and Domain Assignment">dac414671b9c30108a79ece4604bcb54</sys_scope>
+        <sys_scope_delete display_value="">5bf57aef587240c0b3f9aedd49323dc4</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_e25e23f11b0974108a79ece4604bcb01</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_e25e23f11b0974108a79ece4604bcb01">367eefb11b0974108a79ece4604bcbe6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-30 20:48:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
